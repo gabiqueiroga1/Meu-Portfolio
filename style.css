@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+}
+
+
+.hero-section {
+    padding: 120px 0;
+    background-color: #ebebed;
+}
+.nav-pills .nav-link.active {
+    background-color: #212529;
+}
+.nav-pills .nav-link {
+    color: #212529;
+}
+
+.cor-link{
+    color: white;
+}
+.project-card {
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.contact-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+footer {
+    margin-top: 3rem;
+}
